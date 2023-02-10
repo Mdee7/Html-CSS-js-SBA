@@ -1,0 +1,78 @@
+/*
+* Mohamed Diaoune
+*/
+ .infoSection {
+     margin-top: 20%;
+ }
+
+ .infoSection {
+     margin-right: 20%;
+     margin-left: 20%;
+ }
+th {
+	color: black;
+    font-size: 13px;
+    font-weight: 23;
+}
+.grpAddress{
+	padding: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    padding-left: 15px;
+    padding-right: 45px;
+}
+th.thText {
+    text-align: center;
+}
+
+ .panel {
+     margin-bottom: 20px;
+     background-color: #fff;
+     border: 1px solid transparent;
+     border-radius: 4px;
+     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+ }
+
+ .panel-body {
+     padding: 15px
+ }
+
+ .panel-heading {
+     padding: 10px 15px;
+     border-bottom: 1px solid transparent;
+     border-top-left-radius: 3px;
+     border-top-right-radius: 3px
+ }
+
+ .panel-heading>.dropdown .dropdown-toggle {
+     color: inherit
+ }
+
+ .panel-title {
+     margin-top: 0;
+     margin-bottom: 0;
+     font-size: 16px;
+     color: inherit
+ }
+ .panel>.table-responsive {
+     margin-bottom: 0;
+     border: 0
+ }
+
+ .panel-group {
+     margin-bottom: 20px
+ }
+ .panel-group .panel-footer {
+     border-top: 0
+ }
+ .panel-info>.panel-heading {
+     color: #8f4c31;
+     background-color: #f7d9eb;
+     border-color: #bce8f1
+ }

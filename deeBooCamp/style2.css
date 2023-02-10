@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.portalHeader {
+  background-color: #005DB9;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-align: left;
+  padding: 15px;
+}
+
+.portalHeader a {
+  color: #ffffff;
+}
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Container">
+            <!-- this is where the actual Portlet code lives. Everything around this 
+         div is to make developmen nicer. -->
+            <div id="My Profile" style="overflow: hidden;">
+                <div id="profile" class="row">
+                    <div>
+                        <div id="group-list" class="row addPaddingHorz">
+                            <p class="portalHeader addPaddingHorz">FREE WORLD</p>
+                            <div class="portalBody">
+                                <div><!----> <!----> <!----> <!----> <!----></div> <!----> <!---->
+                                <div id="group-select">
+                                    <!-- info section -->
+                                    <div class="container">
+                                        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                                        <div class="row  text-left" style="font-size: 1.0rem;">
+                                            <div class="col">
+                                                <p>
+                                                    If assistance needed,please call 1-000-000-0000.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-container"
+                                            style="margin:0 20%;font-size: 1.0rem;margin-top: 10px;margin-bottom: 30px;">
+                                            <div class="grid-item text-left" style="font-size: 1.0rem;">
+                                                <p>Name</p>
+                                                <p>User ID</p>
+                                                <p>Registration date</p>
+                                            </div>
+                                            <div class="grid-item text-right userProfile" style="font-size: 1.0rem;">
+                                                <!-- userProfile -->
+                                                <P> jhon doe </P>
+                                                <P>00000 </P>
+                                                <P> 12/14/2020 </P>
+                                                <!--append the html-->
+                                            </div>
+                                        </div>
+
+                                        <div class="row" style="font-size: large;">
+                                            <div class="col text-left">
+                                                <p onclick="onclickHandler(event)">
+                                                    Check the item listed below.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- info section end-->
+
+                                    <!-- Groups -->
+                                    <div class="panel-group" id="accordion">
+                                        <!-- accordion -->
+                                        <div class="panel panel-info mb-2 border-0 rounded-0" id="email">
+                                            <div class="panel-heading" id="heading-">
+                                                <h4 class="panel-title collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#panel-"
+                                                    aria-expanded="false" aria-controls="panel-" id="">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#"
+                                                        style="color: #3C99DC;"
+                                                        class="accordion-toggle text-decoration-none" id="">
+                                                        Type</a>
+                                                    </button>
+                                            </div>
+                                            <div id="panel-" class="accordion-collapse collapse"
+                                                aria-labelledby="heading-" data-bs-parent="#accordion">
+                                                <div class="panel-body">
+                                                    <div class="row" id="contacts-">
+                                                        <div class="col-xs-12 col-md-4">
+                                                            <div class="bs-callout bs-callout-default m-0"
+                                                                style="color: #3C99DC;">
+                                                                <h3>type and member name</h3>
+                                                            </div>
+                                                            <!---->
+                                                            <div class="col-xs-12 col-md-8">
+                                                                
+                                                                <!--div group table-->
+                                                                <table class="table table-bordered" style="color: black;">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th class="text-center">Item type</th>
+                                                                            <th class="text-center">Name</th>
+                                                                            <th class="text-center">Image</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody id="mytbody">
+                                                                        <!-- <tr class="text-center">
+                                                                            <td > contact type </td>
+                                                                            <td ><span class="group"><span>Item name </span></span></td>
+                                                                            <td style="width: 25%;"> <img src="Music_Icon.jpg" class="card-img-top" alt="..."> </td>
+                                                                        </tr> -->
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <!---->
+                                                            
+                                                            <!---->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End portlet -->
+
+            <script type="text/javascript" src="script.js"></script>
+            
+        </div>
+    </div>
+</body>
+
+</html>
